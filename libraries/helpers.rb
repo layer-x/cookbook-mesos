@@ -66,9 +66,9 @@ module Helpers
       else
         case platform
         when 'ubuntu'
-          return "-0.2.70.#{platform}#{platform_version.sub('.','')}"
+          return "-0.2.190.#{platform}#{platform_version.sub('.','')}"
         when 'centos'
-          return "-0.2.70.#{platform}#{platform_version.sub('.','')}".sub('65','64')
+          return "x`-0.2.190.#{platform}#{platform_version.sub('.','')}".sub('65','64')
         end
       end
     end
